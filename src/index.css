@@ -1,0 +1,94 @@
+body{
+  margin: 0;
+  /* height: 100%;/ */
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color:#cc313D;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 50px;
+  background:#FEA4B9;
+  padding-bottom: 30px;
+  width: 600px;
+  border-radius: 20px;
+}
+.header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  width: 100%;
+  margin-top: 30px;
+}
+.text{
+  color:#cc313D;
+  font-size: 48px;
+  font-weight: 700px;
+}
+.underline{
+  width: 61px;
+  height: 6px;
+  background-color:#cc313D;
+  border-radius: 9px;
+}
+.inputs{
+  margin-top: 55px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  /* width: 480px; */
+  /* transform: translateX(550px); */
+
+}
+.input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 480px;
+  height: 80px;
+  background-color:#eaeaea ;
+  border-radius: 6px;
+}
+.svg{
+  margin: 0 30px;
+}
+.input input{
+  height: 50px;
+  width: 100%;
+  background: transparent;
+  outline: none;
+  border: none;
+  color: #797979;
+  font-size: 19px;
+
+}
+.forgot-password{
+  /* transform: translateX(560px); */
+  padding-left: 62px;
+  margin-top: 10px;
+  color: #797979;
+  font-size: 18px;
+
+}
+.submit-container{
+  display: flex;
+  gap: 30px;
+  margin: 60px auto;
+}
+.submit{
+  display: flex;
+  justify-content: center;
+ width: 200px;
+  align-items: center;
+  height: 59px;
+  color: white;
+  background-color:#cc313D;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 19px;
+  border-radius: 50px;
+}
+

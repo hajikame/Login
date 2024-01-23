@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+          background-color: whitesmoke;
+}
+.card{
+          display: flex;
+          flex-wrap: wrap;
+          
+}
+
+
+
+pre{
+          margin-top: 30px;
+          font-family:'Times New Roman', Times, serif ;
+          font-weight: 900;
+          font-size: 22px;
+          color: #cc313D;
+}
+
+
+.cards{
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          background-color: white;
+          width: 170px ;
+          margin: auto;
+        height: 190px;
+          margin-top: 90px;
+
+
+}
+img{
+          width: 100px;
+          border-radius: 100%;
+          margin-top: 25px;     
+}
